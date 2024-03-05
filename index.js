@@ -17,6 +17,7 @@
    deleteButton.innerText ='Delete'
    deleteButton.onclick =function () {
     todolist.removeChild(todoitem)
+    
    }
    var editbutton =document.createElement('button')
    editbutton.innerText ='Edit'
